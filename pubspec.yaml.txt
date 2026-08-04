@@ -1,0 +1,17 @@
+name: bills_generator
+description: An offline bill scanner application.
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  image_picker: ^1.0.7
+  google_mlkit_text_recognition: ^0.13.0
+
+flutter:
+  uses-material-design: true
+  
